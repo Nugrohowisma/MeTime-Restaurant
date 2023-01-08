@@ -1,0 +1,45 @@
+/* breakpoint */
+@media screen and (min-width: 600px) {
+  nav {
+    position: static;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .hero-banner {
+    height: 250px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+  .hero-banner {
+    background-image: url("../public/images/heros/hero-image_4-large.webp");
+    height: 300px;
+    font-size: 14px;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-banner {
+    height: 400px;
+    font-size: 16px;
+    max-width: 1000px;
+  }
+
+  main {
+    width: 1000px;
+  }
+}
